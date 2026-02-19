@@ -1,0 +1,370 @@
+/*news letter style added*/
+.nsh5{
+    text-align:center;
+
+}
+.nspara,pre{
+    text-align: center;
+}
+.nspage{
+    margin-top:75px;
+}
+.nsh2{
+    padding:2px;
+}
+.nspara{
+    padding:8px;
+    padding-top:15px;
+}
+:root {
+    --lead: #212121;
+    --gold-color: #F2BD12;
+    --eye-ball: #FFFDF7;
+    --hint-yello: ##FCF1CC;
+    --pure-white: #FFF;
+}
+#nplable{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:43rem;
+    max-width:100%;
+    background-color:var(--pure-white);
+    padding:0.2.5rem;
+   /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top:15px;
+    position: relative;
+    left:5px;
+    top:10px;
+    
+}
+#newsinput{
+    flex:1;
+    height:5vh;
+    border:none;
+    background:transparent;
+    font-size:1rem;
+    padding-left:1.5rem;
+    outline:none;
+}
+#newsbtn{
+   
+    padding:10px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    
+    
+}
+.nspara{
+    opacity:0.7;
+}
+.nspre{
+    opacity:0.7;
+}
+.nspage{
+    position: relative;
+    top:65px;
+}
+/*footer container style added*/
+.footerbox{
+    margin-top:17rem;
+    background-color:hsl(43, 90%, 80%);
+    padding-block:4rem;
+}
+.footer-wrapper{
+    flex:1;
+    position: relative;
+    left:20%;
+
+}
+.fh2{
+    position: relative;
+    right:134.5%;
+    color:var(--gold-color);
+    font-size:28px;
+    padding-bottom:8px;
+}
+.fpara{
+    position: relative;
+    right:98%;
+    opacity:0.6;
+}
+.fpre{
+    position: relative;
+    right:120%;
+    opacity:0.6;
+}
+.footertext{
+    padding:10px;
+    position: relative;
+    right:35px;
+    gap:5px;
+    padding-bottom:13px;
+}
+.fsic{
+    position: relative;
+    right:100%;
+    padding-top:4px;
+}
+.footer-content{
+    row-gap:15px;
+    
+}
+.si{
+    background-color:var(--pure-white);
+    padding:5px;
+}
+/* footer main content style added*/
+.fmenuli1{
+    color:rgb(117, 117, 117);
+    font-size:1.1rem;
+}
+.fmenuli1:hover{
+    color:var(--lead);
+}
+.footerlist,li{
+    padding:13px;
+}
+.j4{
+    position: relative;
+    right:09px;
+}
+.footerlist3{
+    position: relative;
+    left:195px;
+}
+.footerlist2{
+    position: relative;
+    left:185px;
+}
+.footerlist1{
+    position: relative;
+    left:165px;
+}
+.product-section{
+   position: relative;
+   bottom:40px;
+   gap:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:780px){
+
+    .pcard1{
+        display:flex;
+        flex-wrap: wrap;
+        gap:8px;     
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+       
+    }
+    .card-img img{
+        width:100px;
+        height:100px;
+        position: relative;
+        bottom:25px;
+
+    }
+    .order-card{
+        width:100px;
+        height:150px;
+        
+        
+       
+    }
+    .order-card h5{
+        font-size:small;
+        position: relative;
+        bottom:17%;
+    }
+    .btns{
+        width:60px;
+        height:20px;
+        padding:5px;
+        position: relative;
+        bottom:20px;
+        border-radius:10px;
+        font-size:14px;
+        text-align: center;
+        padding:auto;
+        
+    }
+    .product_section{
+        position: relative;
+        bottom:50px;
+    }
+    /* review section*/
+    .reviewsection{
+        position: relative;
+        top:100px;
+    }
+    /* footer*/
+    .footerbox{
+        display:none;
+    }
+    /*app design*/
+    .app-container{
+        width:220px;
+        height:250px;
+        padding:30px;
+        position: relative;
+        margin-top:170px;
+        
+
+    }
+    .app-img img{
+        display:none;
+
+    }
+    .app-h5 b{ 
+        font-size:15px;
+        position: relative;
+        right:18px;
+    }
+    .app-h2,h2,pre{
+        font-size:21px;
+
+    }
+    .app-pre,pre,p{
+        font-size:13px;
+        padding:2px;
+
+    }
+    .ccc{
+        display:none;
+    }
+    .a-icon,.a1,.a2{
+       display:none;
+
+    }
+    #app-btns,a{
+        border-radius:15px;
+        padding:8px;
+    }
+    .app-img{
+        display:none;
+    }
+}
